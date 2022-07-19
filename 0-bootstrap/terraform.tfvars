@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-org_id = "25517514685"
+org_id = "957057230070"
 
-billing_account = "01DFD4-9F07A8-88BA5E"
+billing_account = "0198F6-CED065-4B3D0F"
 
-group_org_admins = "eric.lightfoot@mindsea.com"
+group_org_admins = "grouporgadmins@homathkotech.com"
 
-group_billing_admins = "eric.lightfoot@mindsea.com"
+group_billing_admins = "groupbillingadmins@homathkotech.com"
 
 default_region = "northamerica-northeast1"
 
@@ -29,7 +29,7 @@ default_region = "northamerica-northeast1"
 // the provided folder instead of the root organization.
 // The variable value is the numeric folder ID
 // The folder must already exist.
-parent_folder = "225969652600"
+parent_folder = "679873914480"
 
 /* ----------------------------------------
     Specific to jenkins_bootstrap module
