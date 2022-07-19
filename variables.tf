@@ -17,32 +17,37 @@
 variable "org_id" {
   description = "GCP Organization ID"
   type        = string
+  default     = "957057230070"
 }
 
 variable "parent" {
   description = "GCP parent folder id of form folders/{id}"
   type        = string
+  default     = "folders/679873914480"
 }
 
 variable "billing_account" {
   description = "The ID of the billing account to associate projects with."
   type        = string
+  default     = "0198F6-CED065-4B3D0F"
 }
 
 variable "group_org_admins" {
   description = "Google Group for GCP Organization Administrators"
   type        = string
+  default     = "groupbillingadmins@homathkotech.com"
 }
 
 variable "group_billing_admins" {
   description = "Google Group for GCP Billing Administrators"
   type        = string
+  default     = "grouporgadmins@homathkotech.com"
 }
 
 variable "default_region" {
   description = "Default region to create resources where applicable."
   type        = string
-  default     = "us-central1"
+  default     = "northamerica-northeast1"
 }
 
 variable "org_project_creators" {
